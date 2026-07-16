@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politika privatnosti — MMTC</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.6;
+    color: #1a1a1a;
+  }
+  h1 { font-size: 1.6em; margin-bottom: 4px; }
+  h2 { font-size: 1.2em; margin-top: 2em; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+  ul { padding-left: 1.4em; }
+  strong { color: #000; }
+</style>
+</head>
+<body>
+
+<h1>Politika privatnosti — MMTC (MM Trening Centar)</h1>
+<p class="meta">Zadnja izmjena: 2026-07-16</p>
+
+<p>Ova aplikacija ("MMTC", "aplikacija") koristi se za vođenje treninga u teretani MM Trening Centar. Ovaj dokument objašnjava koje podatke aplikacija obrađuje.</p>
+
+<h2>Ko smo mi</h2>
+<p>Vlasnik aplikacije: <strong>Trening Centar MM</strong><br>
+Kontakt: <strong>vladanandjic2909@gmail.com</strong></p>
+
+<h2>Koje podatke prikupljamo</h2>
+<ul>
+  <li><strong>Administrator (osoblje teretane):</strong> korisničko ime i lozinka koji se koriste za prijavu u administratorski dio.</li>
+  <li><strong>Članovi:</strong> ime, prezime i prikazno ime, te istorija odrađenih treninga. Ove podatke unosi osoblje teretane; članovi se ne prijavljuju sami.</li>
+  <li><strong>Video snimci vježbi:</strong> snimke dodaje administrator; služe za prikaz vježbi.</li>
+  <li><strong>Podaci o padu aplikacije (crash reporting):</strong> u slučaju greške u radu aplikacije, automatski se šalju tehnički podaci (tip uređaja, verzija operativnog sistema, poruka o grešci) servisu Sentry radi otklanjanja problema. Ovi podaci ne uključuju lične podatke članova.</li>
+</ul>
+
+<p>Aplikacija <strong>ne prikuplja</strong> lokaciju, kontakte, niti koristi reklame ili analitiku za praćenje korisnika.</p>
+
+<h2>Kako koristimo podatke</h2>
+<p>Podaci se koriste isključivo za funkcionisanje aplikacije: prijava administratora, pretraga člana na kiosku i prikaz njegovog dnevnog treninga.</p>
+
+<h2>Gdje se podaci čuvaju</h2>
+<ul>
+  <li>Podaci o korisnicima i treninzima: baza podataka (Neon / PostgreSQL).</li>
+  <li>Video snimci: Cloudflare R2 (object storage).</li>
+  <li>Aplikacijski server: Hetzner (Njemačka).</li>
+</ul>
+<p>Komunikacija između aplikacije i servera je šifrovana (HTTPS).</p>
+
+<h2>Dozvole na uređaju</h2>
+<ul>
+  <li><strong>Pristup galeriji (foto/video):</strong> koristi ga <strong>samo administrator</strong> pri dodavanju video snimka vježbe. Aplikacija ne pristupa galeriji bez te radnje.</li>
+</ul>
+
+<h2>Dijeljenje podataka</h2>
+<p>Podatke ne prodajemo niti dijelimo sa trećim stranama, osim sa gore navedenim pružaocima infrastrukture (Neon, Cloudflare, Hetzner, Sentry) neophodnim za rad aplikacije.</p>
+
+<h2>Brisanje podataka</h2>
+<p>Za brisanje podataka člana ili administratorskog naloga, kontaktirajte nas na <strong>vladanandjic2909@gmail.com</strong>.</p>
+
+<h2>Izmjene politike</h2>
+<p>Politiku možemo ažurirati; datum zadnje izmjene je naveden na vrhu.</p>
+
+</body>
+</html>
